@@ -34,8 +34,8 @@ Display the result
 import cv2 
 import numpy as np
 import matplotlib.pyplot as plt
-img=cv2.imread("image_line.webp",0)
-img_c=cv2.imread("image_line.webp",1)
+img=cv2.imread("r.jpeg",0)
+img_c=cv2.imread("r.jpeg",1)
 img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 img_c=cv2.cvtColor(img_c,cv2.COLOR_BGR2RGB)
 plt.figure(figsize=(20,20))
@@ -88,13 +88,13 @@ plt.show()
 ## Output
 
 ### Input image and grayscale image
-![DI-EXP8-A](https://user-images.githubusercontent.com/75235132/169022132-a591597d-22d5-4663-ae22-ef28f6a05bd3.PNG)
+![DI-EXP8-A](https://user-images.githubusercontent.com/75235132/169346928-fcd52e39-c53d-4f2b-9f21-e9745109e4b7.png)
 
 ### Canny Edge detector output
-![DI-EXP8-B](https://user-images.githubusercontent.com/75235132/169022166-0b8e8613-a3a9-48d2-bf4f-3a4760eea947.PNG)
+![DI -EXP8-B](https://user-images.githubusercontent.com/75235132/169346951-e034c779-ecfa-4774-8aca-fcf4f636375b.png)
  
 ### Display the result of Hough transform
-![DI-EXP8-C](https://user-images.githubusercontent.com/75235132/169022197-60e3ec63-2f7a-4eb1-9b42-01635dffd76d.PNG)
+![DI - EXP8-C](https://user-images.githubusercontent.com/75235132/169346969-d9fa131f-8a88-48bf-aa1f-f4e8663db16c.png)
 
 ## Result:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
